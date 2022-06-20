@@ -46,6 +46,7 @@ module.exports = {
       remotes: {},
       exposes: {
         './MicroApp2': './src/components/MicroApp2.tsx',
+        './people': './src/components/people.ts',
       },
       shared: {
         ...deps,
